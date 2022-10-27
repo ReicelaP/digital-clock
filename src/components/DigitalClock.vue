@@ -10,7 +10,6 @@ export default {
   name: "CurrentTimeExample",
   setup() {
     const { currentTime } = useCurrentTime();
-    console.log(currentTime.value);
     return { currentTime };
   },
 };
